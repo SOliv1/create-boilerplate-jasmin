@@ -36,3 +36,12 @@ A philosophy that encourages to write code that will catch potential issues
  
 How do you use it?
 By checking that values are of a specific type and aren't null or undefined
+
+##What is it?
+##Spy
+ 
+What does it do?
+Spies on functions to check to see if they've been called
+ 
+How do you use it?
+By setting a spy to spy on a specific function of method
