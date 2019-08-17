@@ -16,3 +16,13 @@ It's a philosophy for testing
  
 How do you use it?
 By starting off with a failing test!
+
+##Creating More Specs Within A Test Suite 
+What is it?
+Test suites
+ 
+What does it do?
+Allows us to write additional specs
+ 
+How do you use it?
+By writing as many specs as necessary
