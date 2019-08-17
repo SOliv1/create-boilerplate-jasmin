@@ -1,19 +1,27 @@
 describe("Calculator", function() {
+    var calc = new Calculator;
+
+    
     describe("Addition function", function() {
         it("should return 42", function() {
-            expect(addition(20, 22)).toBe(42);
+            calc.add(20);
+            calc.add(22);
+            expect(calc.value).toBe(42);
+
         });
-        it("should not return 4 if the arguments given don't produce a sum of 4", function() {
-           expect(addition(7, 19)).toBe(26);
+
+        it("should return 26", function() {
+            calc.add(7);
+            calc.add(19);
+            expect(calc.value).toBe(26);
         });
-        it("should return an error if we don't supply two numbers", 
-            function()  {
+        it("should return an error if we don't supply two numbers", function() {
             spyOn(window, "alert");
-            addition("Hitchikers", "Guide");
+            calc.add("Hitchhikers");
             expect(window.alert).toHaveBeenCalledWith("Error!");
+
         });
+
     });
- });
-       
- 
-        
+
+});

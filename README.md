@@ -17,6 +17,17 @@ It's a philosophy for testing
 How do you use it?
 By starting off with a failing test!
 
+Refactoring - Fixing Our Tests 
+ 
+What is it?
+Refactoring
+ 
+What does it do?
+Allows us to make updates to our code
+ 
+##How do you use it?
+##This time we'll refactor our tests to work with our new application code
+
 ##Creating More Specs Within A Test Suite 
 What is it?
 Test suites
