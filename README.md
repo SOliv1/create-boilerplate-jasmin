@@ -26,3 +26,13 @@ Allows us to write additional specs
  
 How do you use it?
 By writing as many specs as necessary
+
+##Programming Defensively 
+What is it?
+Defensive Programming
+ 
+What does it do?
+A philosophy that encourages to write code that will catch potential issues
+ 
+How do you use it?
+By checking that values are of a specific type and aren't null or undefined
