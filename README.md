@@ -56,3 +56,5 @@ Spies on functions to check to see if they've been called
  
 How do you use it?
 By setting a spy to spy on a specific function of method
+
+##Setting Up Each Spec 
