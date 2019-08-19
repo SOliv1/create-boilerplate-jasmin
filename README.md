@@ -58,3 +58,12 @@ How do you use it?
 By setting a spy to spy on a specific function of method
 
 ##Setting Up Each Spec 
+ 
+What is it?
+beforeEach
+ 
+What does it do?
+Allows us to create a fresh Calculator object before each spec
+ 
+How do you use it?
+By invoking the beforeEach function
